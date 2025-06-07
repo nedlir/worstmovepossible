@@ -1,0 +1,50 @@
+.puzzle-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  min-height: 0;
+}
+
+.puzzle-content .board-container {
+  width: min(95vw, 75vh);
+  height: min(95vw, 75vh);
+  aspect-ratio: 1;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0.5rem;
+  flex-shrink: 0;
+}
+
+.puzzle-content .puzzle-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: min(75dvh, 95dvw);
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+@media (min-width: 1200px) {
+  .puzzle-content {
+    flex: 1;
+    max-width: calc(100% - 366px);
+    margin-right: 0;
+    align-self: flex-start;
+  }
+
+  .puzzle-content .board-container {
+    width: min(calc(100vw - 400px), 75vh);
+    height: min(calc(100vw - 400px), 75vh);
+  }
+}
+
+@media (max-width: 480px) {
+  .puzzle-content .board-container {
+    margin: 0.25rem;
+    width: min(95vw, 75vh);
+    height: min(95vw, 75vh);
+  }
+}

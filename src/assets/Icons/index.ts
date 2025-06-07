@@ -1,0 +1,14 @@
+export { default as PreviousIcon } from "./PreviousIcon";
+export { default as NextIcon } from "./NextIcon";
+export { default as ResetIcon } from "./ResetIcon";
+export { default as HintIcon } from "./HintIcon";
+export { default as PlayIcon } from "./PlayIcon";
+export { default as RedditIcon } from "./RedditIcon";
+export { default as QueenIcon } from "./QueenIcon";
+export { default as CopyIcon } from "./CopyIcon";
+export { default as DiscordIcon } from "./DiscordIcon";
+export { default as FacebookIcon } from "./FacebookIcon";
+export { default as LinkedInIcon } from "./LinkedInIcon";
+export { default as TelegramIcon } from "./TelegramIcon";
+export { default as TwitterIcon } from "./TwitterIcon";
+export { default as WhatsAppIcon } from "./WhatsAppIcon";

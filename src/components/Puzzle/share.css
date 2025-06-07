@@ -1,0 +1,129 @@
+.share-container {
+  background: var(--secondary-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.share-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  background: var(--secondary-color);
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  margin: 0;
+
+  h3 {
+    font-size: clamp(1rem, 2.5dvw, 1.25rem);
+    margin: 0;
+    font-weight: 600;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+
+    span:first-child {
+      font-weight: 700;
+    }
+  }
+}
+
+.share-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.25rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0 8px;
+
+  &.visible {
+    max-height: 500px;
+    padding-bottom: 8px;
+  }
+
+  .share-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 0.5rem;
+    border-radius: 6px;
+    font-size: clamp(0.65rem, 2dvw, 0.8rem);
+    font-weight: 500;
+    border: none;
+    color: white;
+    min-height: 60px;
+    text-align: center;
+
+    span {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+
+    &.facebook {
+      background: #1877f2;
+    }
+    &.twitter {
+      background: #1da1f2;
+    }
+    &.linkedin {
+      background: #0a66c2;
+    }
+    &.reddit {
+      background: #ff4500;
+    }
+    &.whatsapp {
+      background: #25d366;
+    }
+    &.telegram {
+      background: #26a5e4;
+    }
+    &.discord {
+      background: #5865f2;
+    }
+    &.copy {
+      background: var(--button-color);
+      color: var(--text-color);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .share-buttons {
+    grid-template-columns: repeat(2, 1fr);
+
+    .share-button {
+      padding: 0.5rem;
+      min-height: 50px;
+      font-size: 0.6rem;
+
+      svg {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .share-container {
+    padding: 0.75rem;
+  }
+
+  .share-buttons .share-button {
+    font-size: 0.7rem;
+  }
+}

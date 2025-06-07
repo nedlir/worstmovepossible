@@ -1,0 +1,11 @@
+.puzzle-page {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.puzzle-page h1 {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}

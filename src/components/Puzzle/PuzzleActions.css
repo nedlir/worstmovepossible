@@ -1,0 +1,42 @@
+.control-button,
+.action-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  font-size: clamp(1rem, 2.5dvw, 1.25rem);
+  background-color: #4a4a4a;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  min-height: 44px;
+  width: 100%;
+}
+
+.control-button:disabled,
+.action-button:disabled {
+  background-color: #cccccc;
+  color: #634747;
+  cursor: not-allowed;
+  border: 1px solid #999999;
+}
+
+.control-button:hover:not(:disabled),
+.action-button:hover:not(:disabled) {
+  background-color: #70583b;
+}
+
+.control-button:active:not(:disabled),
+.action-button:active:not(:disabled) {
+  transform: translateY(2px);
+}
+
+.control-button svg,
+.action-button svg {
+  width: clamp(18px, 4dvw, 24px);
+  height: clamp(18px, 4dvw, 24px);
+  fill: currentColor;
+}

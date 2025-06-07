@@ -1,0 +1,466 @@
+[
+  {
+    "id": "00OXc",
+    "fen": "8/5K1p/1p4pk/8/3brp2/5R2/8/8 b - - 5 50",
+    "moves": ["g6g5"],
+    "makeFirstMove": false,
+    "move_sequence": ["f3h3"],
+    "description": "Pawn to g5: when you're feeling cheeky but checkmate is feeling cheekier"
+  },
+  {
+    "id": "00Ocp",
+    "fen": "r3k3/p1pbq3/2p2p2/4p1p1/2B3p1/2P4r/P1P2PQP/3RR1K1 b q - 3 20",
+    "moves": ["e8c8"],
+    "makeFirstMove": false,
+    "move_sequence": ["c4a6", "c8b8", "d1b1", "e7b4", "b1b4"],
+    "description": "Show mama how you can castle and lose the game"
+  },
+  {
+    "id": "00PGi",
+    "fen": "3r1q1k/pppb2pp/2np4/6N1/5B2/1Q4P1/PP4PP/4R2K b - - 11 24",
+    "moves": ["f8f7"],
+    "makeFirstMove": false,
+    "move_sequence": ["g5f7", "h8g8", "f7h6", "g8h8", "b3g8"],
+    "description": "Move queen get out the way, get out the way queen get out the way"
+  },
+  {
+    "id": "00Pr6",
+    "fen": "r1b2rk1/p4ppp/2p5/6q1/2p3P1/3P1Q1P/PPP5/1K2RR2 b - - 0 17",
+    "moves": ["f8e8"],
+    "makeFirstMove": false,
+    "move_sequence": ["e1e8"],
+    "description": "Rook around and find out what checkmate feels like"
+  },
+  {
+    "id": "00QQS",
+    "fen": "2r3k1/1p1q1ppp/4p3/Q7/3P4/P1B5/1Pr2PPP/R5K1 b - - 0 22",
+    "moves": ["c8a8"],
+    "makeFirstMove": false,
+    "move_sequence": ["a5a8", "d7c8", "a8c8"],
+    "description": "Slide your rook to the left, now slide your king into checkmate"
+  },
+  {
+    "id": "00QZ3",
+    "fen": "r1bq3r/ppppnkpp/2n5/b5N1/4P3/B1P5/P4PPP/RN1QK2R b KQ - 1 9",
+    "moves": ["f7f8"],
+    "makeFirstMove": false,
+    "move_sequence": ["d1f3", "f8g8", "f3f7"],
+    "description": "King be like 'I'm just gonna scoot over here' and checkmate be like 'surprise!'"
+  },
+  {
+    "id": "00RPk",
+    "fen": "8/2p5/5ppp/1PkP4/p4PPP/P1K5/8/8 b - - 0 39",
+    "moves": ["c7c6"],
+    "makeFirstMove": false,
+    "move_sequence": ["d5c6", "c5b5", "c6c7", "b5c5", "c7c8q"],
+    "description": "Pawn sacrifice? More like queen delivery service—special express!"
+  },
+  {
+    "id": "00Ru6",
+    "fen": "3r1r2/p5kp/1p4pP/2p5/2PbBQ2/2q5/P1P1K3/5R2 b - - 0 34",
+    "moves": ["g7h8"],
+    "makeFirstMove": false,
+    "move_sequence": ["f4f8", "d8f8", "f1f8"],
+    "description": "When you snag the queen but forget to read the checkmate fine print"
+  },
+  {
+    "id": "00RzK",
+    "fen": "1r2r3/p2k3p/2bP1q1P/1p2ppp1/1P6/1KPB4/P6Q/3R1R2 b - - 1 38",
+    "moves": ["f6d8"],
+    "makeFirstMove": false,
+    "move_sequence": ["d3f5", "e8e6", "f5e6", "d7e6", "h2h3"],
+    "description": "Queen thinks she's fancy, checkmate thinks she's lunch"
+  },
+  {
+    "id": "00S6g",
+    "fen": "r6r/p3kpbp/2Q1pnp1/q7/P2P1P2/1PP5/6PP/R1B2RK1 b - - 0 16",
+    "moves": ["a5d8"],
+    "makeFirstMove": false,
+    "move_sequence": ["c1a3", "d8d6", "c6d6", "e7e8", "d6e7"],
+    "description": "Your queen's having a road trip while checkmate is booking a one-way ticket"
+  },
+  {
+    "id": "00Se9",
+    "fen": "5rk1/pp1n2r1/3p2N1/2pQ4/2P5/4P1P1/qP2KPP1/7R b - - 1 24",
+    "moves": ["f8f7"],
+    "makeFirstMove": false,
+    "move_sequence": ["h1h8"],
+    "description": "Move the rook to rigity wreck yourself"
+  },
+  {
+    "id": "00SeK",
+    "fen": "7k/pp5p/4r1pP/5pP1/3Q1n2/P1P5/KP6/5q2 b - - 1 35",
+    "moves": ["h8g8"],
+    "makeFirstMove": false,
+    "move_sequence": ["d4g7"],
+    "description": "King just wanted some fresh air, got a faceful of checkmate instead"
+  },
+  {
+    "id": "00T85",
+    "fen": "8/8/8/8/8/4K3/1k3Q2/1q6 b - - 5 53",
+    "moves": ["b2c1"],
+    "makeFirstMove": false,
+    "move_sequence": ["f2d2"],
+    "description": "You really wanted to kiss that Queen didn't you?"
+  },
+  {
+    "id": "00TEQ",
+    "fen": "r3k1nr/1bq2ppp/p2p4/1p2p1NQ/3nP3/1BN4P/PP3PP1/R2R2K1 b kq - 2 15",
+    "moves": ["c7d8"],
+    "makeFirstMove": false,
+    "move_sequence": ["h5f7"],
+    "description": "Queen: 'Imma head out.' Checkmate: 'Allow me to introduce myself'"
+  },
+  {
+    "id": "00WqT",
+    "fen": "r4r2/1ppb1p2/p2p2pk/5P2/4P3/2PBB1R1/PKP2P1q/8 b - - 4 26",
+    "moves": ["h6h5"],
+    "makeFirstMove": false,
+    "move_sequence": ["d3e2", "h5h4", "e3g5"],
+    "description": "Your king's taking a stroll right into checkmate's waiting arms"
+  },
+  {
+    "id": "00Wyh",
+    "fen": "2r5/8/8/pNp1r2p/3kNppP/1P1P4/2R2K2/8 b - - 2 42",
+    "moves": ["d4d3"],
+    "makeFirstMove": false,
+    "move_sequence": ["c2d2", "d3e4", "b5d6"],
+    "description": "King's doing the electric slide straight into checkmate's DMs"
+  },
+  {
+    "id": "00X1l",
+    "fen": "5r1k/Q6p/1pb3p1/4q3/4p3/1BP2p1P/PP4P1/5RK1 b - - 0 30",
+    "moves": ["f3g2"],
+    "makeFirstMove": false,
+    "move_sequence": ["f1f8"],
+    "description": "That pawn promotion was sponsored by Checkmate Express™"
+  },
+  {
+    "id": "00XNY",
+    "fen": "2r5/p4p1k/1p1pq3/2p2p2/7R/2Q4P/1P3PP1/6K1 b - - 1 34",
+    "moves": ["h7g8"],
+    "makeFirstMove": false,
+    "move_sequence": ["h4h8"],
+    "description": "King does a shimmy, checkmate does a slam dunk"
+  },
+  {
+    "id": "00Ybq",
+    "fen": "2rr4/4kp2/p3p2q/1p3nNP/3PQP2/P1N5/1P3K2/6R1 b - - 0 34",
+    "moves": ["f7f6"],
+    "makeFirstMove": false,
+    "move_sequence": ["e4e6", "e7f8", "e6f7"],
+    "description": "Pawn: 'I'm helping!' Checkmate: 'Yes, you're helping ME!'"
+  },
+  {
+    "id": "00Ydr",
+    "fen": "r2qkb1r/p2p2pb/1p1PpN2/2p1Pp2/2P2P1P/4K3/PP2B1P1/3Q3R b kq - 2 21",
+    "moves": ["g7f6"],
+    "makeFirstMove": false,
+    "move_sequence": ["e2h5", "h7g6", "h5g6"],
+    "description": "Bishop goes on vacation, checkmate RSVPs to your defeat party"
+  },
+  {
+    "id": "00ZEW",
+    "fen": "r1b5/pppqNkp1/3p3p/6rn/1PP2p1N/P5P1/4Q2P/4RRK1 b - - 3 22",
+    "moves": ["d7e7"],
+    "makeFirstMove": false,
+    "move_sequence": ["e2e7", "f7g8", "e7d8", "g8h7", "e1e8"],
+    "description": "Queen swap? More like game over with extra steps"
+  },
+  {
+    "id": "00ZEc",
+    "fen": "1r3bk1/5p2/3P1qRP/r1n1p3/ppB5/P2Q1P2/1PP5/1K6 b - - 0 35",
+    "moves": ["g8h7"],
+    "makeFirstMove": false,
+    "move_sequence": ["g6g7", "h7h8", "d3h7"],
+    "description": "King thought he was sneaky, checkmate thought he was snack-y"
+  },
+  {
+    "id": "00ZK8",
+    "fen": "r1bq1b1r/pp3kpp/3p1n2/3Q4/2n1P3/5N2/PP3PPP/RNB1K2R b KQ - 1 10",
+    "moves": ["f7g6"],
+    "makeFirstMove": false,
+    "move_sequence": ["f3h4"],
+    "description": "King's on the move, Knight checkmates like 'that was smooth'"
+  },
+  {
+    "id": "00Zh6",
+    "fen": "r1bqkn1r/ppb1n1pp/2p1pB2/4N3/3PN3/3B4/PPPQ1PPP/R3K2R b KQkq - 0 12",
+    "moves": ["g7f6"],
+    "makeFirstMove": false,
+    "move_sequence": ["e4f6"],
+    "description": "Pawn: 'Let me just take this piece.' Checkmate: 'And I took that personally'"
+  },
+  {
+    "id": "00Zx9",
+    "fen": "r1b1k1nr/ppp2ppp/3p2q1/4R1B1/2B2P2/7P/P5P1/1N1Q2K1 b kq - 0 14",
+    "moves": ["d6e5"],
+    "makeFirstMove": false,
+    "move_sequence": ["d1d8"],
+    "description": "Taking that rook was the last thing you did before checkmate took you"
+  },
+  {
+    "id": "00aL1",
+    "fen": "8/5pr1/1Q4k1/p2pp3/5Rp1/6P1/5PKP/3q4 b - - 1 33",
+    "moves": ["g6g5"],
+    "makeFirstMove": false,
+    "move_sequence": ["b6f6", "g5h5", "f4f5", "g7g5", "f5g5"],
+    "description": "King's making moves while checkmate's plotting the after-party"
+  },
+  {
+    "id": "00bGq",
+    "fen": "1k3r2/ppp2r1p/1b1pQP1p/8/3P3P/2P3R1/Pq4P1/5R1K b - - 0 22",
+    "moves": ["f8e8"],
+    "makeFirstMove": false,
+    "move_sequence": ["e6e8"],
+    "description": "Rook goes zooming, checkmate comes booming"
+  },
+  {
+    "id": "00bou",
+    "fen": "r1b1k1nr/pppp1ppp/3b4/3N2B1/3p4/8/PP1KBPPP/4R2R b kq - 3 11",
+    "moves": ["d6f8"],
+    "makeFirstMove": false,
+    "move_sequence": ["d5c7"],
+    "description": "Block yourself to rigity wreck yourself"
+  },
+  {
+    "id": "00bpH",
+    "fen": "8/5p2/pq5p/1p5k/6B1/6P1/P6P/2Q4K b - - 0 36",
+    "moves": ["h5g4"],
+    "makeFirstMove": false,
+    "move_sequence": ["c1f4", "g4h5", "f4f5"],
+    "description": "Your king's on the highway to the checkmate zone"
+  },
+  {
+    "id": "00d5g",
+    "fen": "2b2rk1/pp4p1/2p5/4r3/2B5/1P6/P4pK1/5R2 b - - 4 32",
+    "moves": ["g8h8"],
+    "makeFirstMove": false,
+    "move_sequence": ["f1h1", "c8h3", "h1h3", "e5h5", "h3h5"],
+    "description": "King to h8? 'Heeeere's checky!' That rook on f1 is about to turn your cozy corner into a horror show."
+  },
+  {
+    "id": "00dzs",
+    "fen": "3k1b1r/1p1n1ppp/1B6/1p6/8/5K2/PPr2PPP/3RR3 b - - 1 19",
+    "moves": ["d8c8"],
+    "makeFirstMove": false,
+    "move_sequence": ["e1e8"],
+    "description": "King to c8? 'I'm sorry Dave, I'm afraid I can't let you do that.' Rook e1 has other plans for your future."
+  },
+  {
+    "id": "00eAX",
+    "fen": "6k1/ppprN1pp/8/8/2r5/2P5/P5PP/3R1RK1 b - - 5 26",
+    "moves": ["g8h8"],
+    "makeFirstMove": false,
+    "move_sequence": ["f1f8"],
+    "description": "Hiding your king in h8 is like that person who runs upstairs in a slasher film. Rook f1 is coming for you, baby!"
+  },
+  {
+    "id": "00eLW",
+    "fen": "8/8/3q3k/5Q2/4p3/4P2P/5pK1/8 w - - 0 42",
+    "moves": ["f5f4"],
+    "makeFirstMove": false,
+    "move_sequence": ["d6f4", "e3f4", "e4e3", "g2f1", "h6g6"],
+    "description": "Queen trade on f4? 'I've made a huge mistake.' That f2 pawn is gonna party like it's 1999 all the way to promotion."
+  },
+  {
+    "id": "00f1D",
+    "fen": "r1bq2kr/1p2b1pp/p2pN3/4p3/2B1P3/5Q2/PP3PPP/2RR2K1 b - - 0 17",
+    "moves": ["c8e6"],
+    "makeFirstMove": false,
+    "move_sequence": ["c4e6"],
+    "description": "Bishop to e6? That's a bold strategy, Cotton! That c4 bishop is about to terminate your chess hopes and dreams."
+  },
+  {
+    "id": "00fXd",
+    "fen": "8/Q5b1/p2kp3/1p2qpN1/1P6/P7/4nPP1/5K2 b - - 5 46",
+    "moves": ["d6d5"],
+    "makeFirstMove": false,
+    "move_sequence": ["a7c5"],
+    "description": "King d6-d5? 'Hold my beer!' Queen to c5 says 'checkmate happens to the best of us, pal!'"
+  },
+  {
+    "id": "00fZM",
+    "fen": "5rk1/1q3r1p/3p2RQ/3p4/3B4/2P2P2/P5PP/6K1 b - - 0 30",
+    "moves": ["h7g6"],
+    "makeFirstMove": false,
+    "move_sequence": ["h6h8"],
+    "description": "Pawn h7-g6? 'You're gonna need a bigger defense.' Queen to h8 is the apex predator you didn't see coming."
+  },
+  {
+    "id": "00h5T",
+    "fen": "1r2r1k1/3p1pb1/p2q2pp/1p3P2/3p4/P6Q/BPP3PP/4RRK1 b - - 0 23",
+    "moves": ["b8b7"],
+    "makeFirstMove": false,
+    "move_sequence": ["e1e8", "g8h7", "a2f7", "b7b6", "f5g6"],
+    "description": "Rook b8-b7? You've brought a knife to a nuclear rook fight. The e1 rook is about to crash your party with extreme prejudice."
+  },
+  {
+    "id": "00hSr",
+    "fen": "r4rk1/5p2/1q2pnRP/p2p4/1ppP4/2P1P3/PPQN1P2/2K4R b - - 0 21",
+    "moves": ["f7g6"],
+    "makeFirstMove": false,
+    "move_sequence": ["c2g6", "g8h8", "g6g7"],
+    "description": "Pawn takes g6? 'I'll be back...' says the queen as she slides to g6, setting up a classic 'hasta la vista' checkmate."
+  },
+  {
+    "id": "00i7t",
+    "fen": "4r2k/p4r1p/2pp1Q2/2p5/3b1P2/3P2R1/PqPB2PP/4RK2 b - - 0 21",
+    "moves": ["f7g7"],
+    "makeFirstMove": false,
+    "move_sequence": ["e1e8"],
+    "description": "Rook f7-g7? Never turn your back on danger! That rook e1 is about to go e8 and slice through your defenses like butter."
+  },
+  {
+    "id": "00ir2",
+    "fen": "8/6kp/p2P2b1/2p5/2P5/P5P1/1rPR1K2/8 b - - 0 40",
+    "moves": ["b2b5"],
+    "makeFirstMove": false,
+    "move_sequence": ["c4b5", "g6f5", "d6d7", "c5c4", "d7d8q"],
+    "description": "'Tis but a scratch! Your rook to b5 is the perfect setup for that d-pawn's journey to d8. Spoiler: it's more than a flesh wound."
+  },
+  {
+    "id": "00isc",
+    "fen": "2r2r1k/pp3pp1/1b5p/4P3/1q2RB2/1B1p1N2/PP2K1Q1/6R1 w - - 0 39",
+    "moves": ["e2d3"],
+    "makeFirstMove": false,
+    "move_sequence": ["f8d8", "e4d4", "d8d4", "f3d4", "b4d4"],
+    "description": "King e2-d3? Like licking a frozen flagpole, your material and dignity aren't coming back after this winter of discontent."
+  },
+  {
+    "id": "00j8y",
+    "fen": "3kr2r/2p2p1p/1p2p3/pQ1PP3/4q1n1/B5K1/P1P4P/3R1R2 b - - 4 25",
+    "moves": ["c7c5"],
+    "makeFirstMove": false,
+    "move_sequence": ["d5c6", "e4d3", "b5d3", "d8c7", "d3d7"],
+    "description": "Pawn c7-c5? 'What if I told you' that the d5-c6 pawn capture is the beginning of the end? Free your mind from this losing position."
+  },
+  {
+    "id": "00l68",
+    "fen": "3k2Q1/q7/3pB1p1/2pP1p2/2P2P2/rp2PK1P/8/8 b - - 2 37",
+    "moves": ["d8c7"],
+    "makeFirstMove": false,
+    "move_sequence": ["g8c8", "c7b6", "c8c6", "b6a5", "c6b5"],
+    "description": "King d8-c7? Don't go in there! Queen to c8 is the jump scare you'll never recover from. Horror chess 101."
+  },
+  {
+    "id": "00l7Y",
+    "fen": "r1b2q2/p3p1bk/2p3p1/3pn2p/8/2NB3P/PPPBQ1P1/5RK1 b - - 1 17",
+    "moves": ["f8g8"],
+    "makeFirstMove": false,
+    "move_sequence": ["e2h5", "g7h6", "h5h6"],
+    "description": "Queen f8-g8? 'What's the worst that could happen?' Queen e2-h5 answers with a checkmate sledgehammer to your glass house."
+  },
+  {
+    "id": "00lJm",
+    "fen": "5r1k/ppp1nBp1/3pN3/7p/3P3P/2P2RK1/PP3QP1/1q5r b - - 6 26",
+    "moves": ["b1e4"],
+    "makeFirstMove": false,
+    "move_sequence": ["f3f4", "e7f5", "f4f5", "e4g4"],
+    "description": "Queen b1-e4? 'Another one bites the dust' after rook f3-f4 starts the chain reaction. Your queen's final tour begins now."
+  },
+  {
+    "id": "00m5H",
+    "fen": "8/1p5p/6p1/2P2k2/1P6/P3qp1Q/8/5K2 b - - 5 43",
+    "moves": ["f5e4"],
+    "makeFirstMove": false,
+    "move_sequence": ["h3e6", "e4d3", "e6e3", "d3e3", "b4b5"],
+    "description": "King f5-e4? Trading queens is like swapping your Ferrari for a bus pass. That b4-b5 pawn's going places—you're just going home."
+  },
+  {
+    "id": "00mFI",
+    "fen": "4r2k/2q1r3/2p4Q/p5P1/1p1Pp1P1/2P1N2P/PP6/4bRK1 b - - 0 28",
+    "moves": ["e7h7"],
+    "makeFirstMove": false,
+    "move_sequence": ["f1f8", "e8f8", "h6f8"],
+    "description": "Rook e7-h7? 'I feel good about this move!' *narrator voice* 'He shouldn't have.' The f1-f8 rook has other ideas."
+  },
+  {
+    "id": "00mNT",
+    "fen": "8/2q2p1p/R2bpkp1/2p5/4pP2/3r3P/1Q4P1/R5K1 b - - 3 38",
+    "moves": ["e6e5"],
+    "makeFirstMove": false,
+    "move_sequence": ["b2e5"],
+    "description": "Pawn e6-e5? 'This is fine' as your position burns around you. Queen b2-e5 is about to turn up the heat to checkmate degrees."
+  },
+  {
+    "id": "00mRr",
+    "fen": "8/2Q2kpp/1p1p2r1/1PnN4/2P1n3/6P1/1r3PK1/8 b - - 6 41",
+    "moves": ["f7e8"],
+    "makeFirstMove": false,
+    "move_sequence": ["c7e7"],
+    "description": "King f7-e8? 'You gotta know when to fold 'em.' Queen c7-e7 says 'game over' faster than you can say 'royal flush'."
+  },
+  {
+    "id": "00nS6",
+    "fen": "r4rk1/5ppp/p1p2b2/3q1b2/8/5N1P/PP2QPP1/R1B1R1K1 b - - 1 19",
+    "moves": ["f8e8"],
+    "makeFirstMove": false,
+    "move_sequence": ["e2e8", "a8e8", "e1e8"],
+    "description": "Rook f8-e8? 'Welcome to the party, pal!' Queen e2-e8 crashes in with a 'yippee ki-yay' checkmate delivery service."
+  },
+  {
+    "id": "00nZE",
+    "fen": "r1b1r1k1/pp1p1p1Q/2n2Bp1/2p1qp2/2B1P3/3P1R2/PPP3PP/R5K1 b - - 0 16",
+    "moves": ["g8f8"],
+    "makeFirstMove": false,
+    "move_sequence": ["h7f7"],
+    "description": "King g8-f8? You're rearranging deck chairs on the Titanic. Queen h7-f7 is the iceberg you can't avoid."
+  },
+  {
+    "id": "00p5I",
+    "fen": "2r4r/1b4k1/2q1p1p1/2p5/1p1pR1QP/pP1P1PP1/P1P5/4R1K1 b - - 0 30",
+    "moves": ["g7g8"],
+    "makeFirstMove": false,
+    "move_sequence": ["g4g6", "g8f8", "g6f6", "f8e8", "e4e6"],
+    "description": "King g7-g8? Don't run upstairs! Queen g4-g6 is the masked figure waiting at the top with a mate in 3."
+  },
+  {
+    "id": "00qMd",
+    "fen": "4r1kb/3q1p1p/1p1p1PpB/p2P4/2Pp4/6Q1/1P4PP/5RK1 b - - 2 26",
+    "moves": ["g6g5"],
+    "makeFirstMove": false,
+    "move_sequence": ["g3g5", "h8g7", "g5g7"],
+    "description": "Pawn g6-g5? 'What's the worst that could happen?' Queen g3-g5 answers: 'Checkmate in 2, that's what.' Narrator: it was the worst."
+  },
+  {
+    "id": "00qX2",
+    "fen": "1r2r2k/Q1R4p/4q1p1/4Bb2/8/8/PP3PPP/3R2K1 b - - 0 28",
+    "moves": ["e6e5"],
+    "makeFirstMove": false,
+    "move_sequence": ["c7h7", "h8g8", "a7f7"],
+    "description": "Queen e6-e5? 'What are you gonna do, stab me?' Rook c7-h7 says 'yes, actually' with a side of checkmate."
+  },
+  {
+    "id": "00qqD",
+    "fen": "r3k2r/ppp2Bp1/2n5/2p1p2p/4P1n1/3P1N1q/PPP2P1N/R3QRK1 b kq - 0 14",
+    "moves": ["e8f7"],
+    "makeFirstMove": false,
+    "move_sequence": ["f3g5", "f7e7", "g5h3", "g7g5", "f2f3"],
+    "description": "King takes bishop f7? Surprise! Knight f3-g5 is the rake handle hitting your face in this chess slapstick comedy."
+  },
+  {
+    "id": "00r1D",
+    "fen": "r4k1r/p3nppp/3Qp1b1/8/B7/P1q5/2P2PPP/3R1RK1 b - - 5 18",
+    "moves": ["a8d8"],
+    "makeFirstMove": false,
+    "move_sequence": ["d6d8"],
+    "description": "Rook a8-d8? 'I volunteer as tribute!' Queen d6 says 'may the odds be never in your favor' as she delivers checkmate."
+  },
+  {
+    "id": "00rYm",
+    "fen": "2r3k1/R4pp1/1p2p2p/1q2P3/3Pp3/1p2P2P/5QP1/6K1 b - - 1 34",
+    "moves": ["g8f8"],
+    "makeFirstMove": false,
+    "move_sequence": ["f2f7"],
+    "description": "King g8-f8? Clever girl... Queen f2-f7 pounces with a checkmate that'll leave you extinct faster than you can say 'clever girl.'"
+  },
+  {
+    "id": "00stLm",
+    "fen": "7k/5Q2/5K2/8/8/8/8/8 w - - 0 1",
+    "moves": ["f7h7"],
+    "makeFirstMove": false,
+    "move_sequence": ["h7h7"],
+    "description": "Queen f7-h7? Congratulations, you just dropped the mixtape of draws when checkmate was yours for the taking!"
+  }
+]

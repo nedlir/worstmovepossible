@@ -1,0 +1,17 @@
+.puzzle-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .puzzle-sidebar {
+    width: 350px;
+    min-width: 350px;
+    position: sticky;
+    top: calc(var(--nav-height) + 1rem);
+    height: calc(100dvh - var(--nav-height) - 2rem);
+    overflow-y: auto;
+  }
+}

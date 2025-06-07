@@ -1,0 +1,122 @@
+:root {
+  --accent-color: #5e5ec6;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: epicEntrance 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.content-section {
+  background: var(--secondary-color);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: visible;
+}
+
+.cta-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.cta-header h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.contribute-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.contribute-card {
+  background: var(--tertiary-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: cardEnter 0.6s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+  animation-delay: calc(var(--animation-order) * 0.1s);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contribute-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.contribute-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+}
+
+.action-button {
+  width: 100%;
+  padding: 0.8rem;
+  font-weight: 600;
+  transition: transform 0.2s ease;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
+.contribute-footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@keyframes epicEntrance {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes cardEnter {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .content-section {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .contribute-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .contribute-card {
+    padding: 1.2rem;
+  }
+
+  .cta-header h2 {
+    font-size: 1.8rem;
+  }
+}
