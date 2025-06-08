@@ -3,8 +3,7 @@ import "./ContributePage.css";
 
 const ContributePage: React.FC = () => {
   const handleContribution = (type: "submit" | "report") => {
-    const baseUrl =
-      "https://github.com/nedlir/worstmovepossible-website/issues/new";
+    const baseUrl = "https://github.com/nedlir/worstmovepossible/issues/new";
     const params = new URLSearchParams({
       title: `${
         type === "submit" ? "Worst Move Puzzle" : "Puzzle Issue"
