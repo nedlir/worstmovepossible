@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nedlir.github.io/worstmovepossible",
+  "homepage": "https://worstmovepossible.com",
   "engines": {
     "node": ">=14.0.0"
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build --base=/worstmovepossible/",
+    "build": "tsc -b && vite build --base=/",
     "lint": "eslint .",
     "preview": "vite preview",
     "audit": "npm audit",
