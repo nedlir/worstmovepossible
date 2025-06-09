@@ -3,79 +3,82 @@ import "./AboutPage.css";
 
 const AboutPage: React.FC = () => (
   <div className="content-container">
+    <h1 className="page-title">
+      Why THE %$#! WOULD YOU BUILD SOMETHING LIKE THAT????
+    </h1>
+
     <div className="content-section">
-      <div className="header-section">
-        <p className="hook-text">
-          If you ask any player what is the worst move possible in any given
-          position, the answer, unsurprisingly would be "to resign the game".
-          But that is too trivial, and is not very creative. The project you see
-          in front of your eyes started as a joke, but as I begun developing it,
-          I realized it is more than a mere joke and actually has an educational
-          value. Traditional chess puzzles teach you to find the best moves
-          possible.
-          <strong>
-            {" "}
-            Worstmovepossible trains you to recognize the worst ones.
-          </strong>
-          <br />
-          Because knowing how to prevent disasters and how to exploit opponent's
-          blunder is what separates good players from great ones.
-        </p>
-      </div>
+      <p className="hook-text">
+        If you ask a chess player what the worst move in any position is, the
+        correct answer would be "resigning", which is technically correct, but
+        kind of a boring answer.
+      </p>
+      <p className="hook-text">
+        This project started off as a dumb idea: what if we trained people to
+        spot the <em>worst</em> move instead of the best one? Somewhere along
+        the way, it stopped being a joke (sort of), and I realized there might
+        be some value in it.
+      </p>
+      <p className="hook-text">
+        <strong>WorstMovePossible is aimed at learning from disasters.</strong>
+      </p>
+      <p className="hook-text">
+        Not sure if it’ll make you better at chess, but it might help you avoid
+        some embarrassing losses or punish them when your opponent does
+        something dumb.
+      </p>
+    </div>
 
-      <div className="challenge-text">
-        <p>Improving at chess isn't just about spotting brilliant moves - </p>
-        it's about identifying and capitalizing on the worst ones, can you turn
-        blunders into opportunities?
-      </div>
+    <div className="challenge-text">
+      <p>
+        Improving at chess isn't just about finding good moves. Sometimes it's
+        about recognizing when something just looks... wrong.
+      </p>
+    </div>
 
-      <div className="features-paragraph">
-        <h3>Why should I care?</h3>
-        <p>
-          Our approach to chess improvement focuses on developing your chess
-          intuition through pattern recognition and strategic awareness. Learn
-          to spot potential threats before they materialize, and maintain your
-          positional advantages while preventing counterplay opportunities.
-        </p>
+    <div className="features-paragraph">
+      <h3>Why bother?</h3>
+      <p>
+        Honestly, this is less about deep theory and more about building some
+        practical pattern recognition. You see enough awful moves, and you start
+        to develop a sense for what <em>not</em> to do, and what to look for
+        when your opponent slips up.
+      </p>
+      <p>
+        For a while, I realized I was struggling with defense simply because I
+        was way too focused on attacking. I’d tunnel vision on threats and
+        flashy tactics, and completely miss the slow disasters building on my
+        side of the board. Working on this project was partly a way to force
+        myself to pay attention to the other half of the game.
+      </p>
+      <p>
+        This might help your tactics. Might help your general awareness. Might
+        just be entertaining in a chaotic kind of way. No guarantees, but I
+        believe it's more fun than memorizing 20 moves of the Najdorf.
+      </p>
+      <p>
+        If you're the kind of player who occasionally drops a queen or misses a
+        mate in one, and let’s be honest, we all do (the pros just do it
+        less...), this might be a decent way to get a little sharper without
+        grinding opening lines.
+      </p>
 
-        <p>
-          Through careful analysis of common mistakes and practical exercises
-          under time pressure, you'll develop a deeper understanding of critical
-          positions.
-        </p>
-
-        <p>
-          Improve tactical awareness with strategic understanding. From
-          improving your threat detection to mastering blunder-prevention
-          techniques (AH! MY QUEEN!).
-        </p>
-
-        <p>
-          The journey to chess mastery is built on three fundamental pillars:
-          developing core chess fundamentals, honing analytical capabilities,
-          and strengthening threat awareness. I am hoping you'll build a robust
-          foundation that helps you maintain accuracy throughout your games and
-          develop the ability to capitalize on errors.
-        </p>
-
-        <h3>How did you create the puzzles?</h3>
-        <p>
-          The puzzles are generated by a custom-built engine that evaluates
-          positions based on the worst possible move. It leverages the power of{" "}
-          <a href="https://stockfishchess.org">Stockfish</a>, the world's
-          strongest open-source chess engine with an estimated Elo rating of
-          3500+, to analyze positions. The engine creates a minimax tree that
-          calculates the evaluation value of each move using the{" "}
-          <a href="https://en.wikipedia.org/wiki/Minimax">minimax algorithm</a>,
-          which helps determine optimal play by working backwards from the end
-          position. However, unlike traditional chess engines that seek the best
-          moves, our engine is specifically designed to identify the most
-          counterproductive moves in a given position and generate puzzles that
-          challenge users to find the best response. The engine's source code is
-          available as an open-source project on{" "}
-          <a href="https://github.com/nedlir">my GitHub</a>.
-        </p>
-      </div>
+      <h3>How do the puzzles work?</h3>
+      <p>
+        The starting positions were scraped together using{" "}
+        <a href="https://database.lichess.org/">lichess open database</a> and
+        evaluated with <a href="https://stockfishchess.org">Stockfish</a>{" "}
+        engine. It runs a{" "}
+        <a href="https://en.wikipedia.org/wiki/Minimax">minimax algorithm</a>{" "}
+        behind the scenes, except instead of looking for the best move, I
+        tweaked the results to focus on the worst move possible - given there is
+        a single move like that or that this move is far more catastrophic
+        ranking-wise than the other moves below it.
+      </p>
+      <p>
+        If you want to poke around, the code’s on{" "}
+        <a href="https://github.com/nedlir">my GitHub</a>.
+      </p>
     </div>
   </div>
 );

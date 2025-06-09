@@ -10,7 +10,6 @@
 .content-container {
   width: 100%;
   max-width: 800px;
-  margin: 2rem auto;
   padding: 0 1rem;
   opacity: 0;
   transform: translateY(50px);
@@ -151,4 +150,17 @@ a:focus {
 
 a:active {
   transform: translateY(1px);
+}
+
+.page-title {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+  text-shadow: 1px 1px 0 #000, 2px 2px 0 rgba(255, 255, 255, 0.3);
+  letter-spacing: 1px;
 }
