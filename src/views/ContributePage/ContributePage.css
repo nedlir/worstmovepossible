@@ -68,7 +68,7 @@
   padding: 0.8rem;
   font-weight: 600;
   transition: transform 0.2s ease;
-  background-color: var(--accent-color);
+  background-color: #4a4a4a;
   color: white;
   border: none;
   border-radius: 6px;
@@ -76,7 +76,6 @@
 }
 
 .action-button:hover {
-  transform: scale(1.02);
   opacity: 0.9;
 }
 
