@@ -20,10 +20,11 @@ const ContributePage: React.FC = () => {
   };
 
   return (
-    <div className="content-section">
-      <div className="cta-header">
+    <div className="content-container">
+      <h1 className="page-title">Hey I wanna help too!</h1>
+      <section className="content-section">
         <div className="contribute-grid">
-          <div
+          <article
             className="contribute-card"
             style={{ "--animation-order": 1 } as React.CSSProperties}
           >
@@ -40,9 +41,9 @@ const ContributePage: React.FC = () => {
             >
               Propose Puzzle Challenge
             </button>
-          </div>
+          </article>
 
-          <div
+          <article
             className="contribute-card"
             style={{ "--animation-order": 2 } as React.CSSProperties}
           >
@@ -59,19 +60,19 @@ const ContributePage: React.FC = () => {
             >
               Report Puzzle Anomaly
             </button>
-          </div>
+          </article>
         </div>
-        <div className="contribute-footer">
+
+        <footer className="contribute-footer">
           <p>
             <em>
               Every verified submission earns you a spot in our
-              <strong> Puzzle Hall of Fame</strong> (aka the readme file in
-              github)
-            </em>{" "}
+              <strong> Puzzle Hall of Fame</strong> (aka the readme on github)
+            </em>
             🏆
           </p>
-        </div>
-      </div>
+        </footer>
+      </section>
     </div>
   );
 };
