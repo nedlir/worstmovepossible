@@ -1,13 +1,17 @@
 import React from "react";
 import "./ContributePage.css";
 
+type Contribution = "submit" | "report";
+
 const ContributePage: React.FC = () => {
-  const handleContribution = (type: "submit" | "report") => {
+  const handleContribution = (type: Contribution) => {
     const baseUrl = "https://github.com/nedlir/worstmovepossible/issues/new";
     const params = new URLSearchParams({
       title: `${
-        type === "submit" ? "Worst Move Puzzle" : "Puzzle Issue"
-      } Report`,
+        type === "submit"
+          ? "Worst Move Puzzle Addition Suggestion"
+          : "Puzzle Issue Report"
+      }`,
       labels: type,
       template: `${type}_puzzle.yml`,
     });
@@ -23,10 +27,12 @@ const ContributePage: React.FC = () => {
             className="contribute-card"
             style={{ "--animation-order": 1 } as React.CSSProperties}
           >
-            <h3>⚡ Architect New Puzzles</h3>
+            <h3>Add Puzzles</h3>
             <p>
               Design positions where catastrophic moves hide in plain sight.
-              Include engine analysis proving the move's objective weakness.
+              (Please include engine analysis proving the move's objective
+              weakness, and confirm there are no alternative moves of equivalent
+              evaluation)
             </p>
             <button
               className="action-button"
@@ -40,10 +46,12 @@ const ContributePage: React.FC = () => {
             className="contribute-card"
             style={{ "--animation-order": 2 } as React.CSSProperties}
           >
-            <h3>🚨 Quality Control Patrol</h3>
+            <h3>Quality Control</h3>
             <p>
-              Flag puzzles where alternative solutions exist or the "worst move"
-              lacks catastrophic consequences. Be our accuracy watchdog.
+              Flag puzzles if alternative solutions are objectively equivalent,
+              or if the "worst move" lacks a clearly detrimental impact. (Please
+              include analysis explaining why the move isn't decisively
+              inferior, and why no significantly worse alternatives exist)
             </p>
             <button
               className="action-button"
@@ -57,7 +65,8 @@ const ContributePage: React.FC = () => {
           <p>
             <em>
               Every verified submission earns you a spot in our
-              <strong> Puzzle Hall of Fame</strong>
+              <strong> Puzzle Hall of Fame</strong> (aka the readme file in
+              github)
             </em>{" "}
             🏆
           </p>
