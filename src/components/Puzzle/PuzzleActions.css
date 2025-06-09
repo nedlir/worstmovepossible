@@ -26,7 +26,7 @@
 
 .control-button:hover:not(:disabled),
 .action-button:hover:not(:disabled) {
-  background-color: #8e759d;
+  background-color: var(--button-hover-color);
 }
 
 .control-button:active:not(:disabled),
