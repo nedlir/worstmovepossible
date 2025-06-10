@@ -328,14 +328,6 @@
     "description": "King e2-d3? Like licking a frozen flagpole, your material and dignity aren't coming back after this winter of discontent."
   },
   {
-    "id": "00j8y",
-    "fen": "3kr2r/2p2p1p/1p2p3/pQ1PP3/4q1n1/B5K1/P1P4P/3R1R2 b - - 4 25",
-    "moves": ["c7c5"],
-    "makeFirstMove": false,
-    "move_sequence": ["d5c6", "e4d3", "b5d3", "d8c7", "d3d7"],
-    "description": "Pawn c7-c5? 'What if I told you' that the d5-c6 pawn capture is the beginning of the end? Free your mind from this losing position."
-  },
-  {
     "id": "00l68",
     "fen": "3k2Q1/q7/3pB1p1/2pP1p2/2P2P2/rp2PK1P/8/8 b - - 2 37",
     "moves": ["d8c7"],
