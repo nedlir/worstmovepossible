@@ -1,0 +1,3 @@
+python-chess
+stockfish
+python-dotenv
